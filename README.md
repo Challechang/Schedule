@@ -34,10 +34,101 @@
 
 ### 二分查找
 
-* 查找第一个值等于给定值的元素
-* 查找最后一个值等于给定值的元素
-* 查找第一个大于等于给定值的元素
-* 查找最后一个小于等于给定值的元素
+* 查找第一个值等于给定值的元素  
+``` c++
+/**
+ * 二分查找，查找第一个值等于给定值的元素
+ **/
+ int binary_search_first(const vector<int>& nums, int target) {
+     int left = 0;
+     int right = nums.size() - 1;
+     while (left <= right) {
+         int mid = left + ((right - left) >> 1);
+         if (nums[mid] > target) {
+             right = mid - 1;
+         } else if (nums[mid] < target) {
+             left = mid + 1;
+         } else {
+             if (mid == 0 || nums[mid-1] != target) {
+                 return mid;
+             }
+             right = mid - 1;
+         }
+     }
+     return -1;
+ }
+```
+* 查找最后一个值等于给定值的元素   
+``` c++
+/**
+ * 二分查找，查找最后一个值等于给定值的元素
+ **/
+int binary_search_last(const vector<int>& nums, int target) {
+    int left = 0;
+    int right = nums.size() - 1;
+    
+    while (left <= right) {
+        int mid = left + ((right-left)>>1);
+        if (nums[mid] > target) {
+            left = mid + 1;
+        } else if (nums[mid] < target) {
+            right = mid - 1;
+        } else {
+            if (mid == (nums.size() - 1) || nums[mid+1] != target) {
+                return mid;
+            }
+            left = mid + 1;
+        }
+    }
+    return -1;
+}
+
+```
+* 查找第一个大于等于给定值的元素  
+``` c++
+int binary_search(const vector<int>& nums, int target) {
+    int left = 0;
+    int right = nums.size() - 1
+    while (left <= right) {
+        int mid = left + ((right - left)>>1);
+        if (nums[mid] >= target) {
+            if (mid == 0 || nums[mid-1] < target) {
+                return mid;
+            }
+            right = mid - 1;
+        } else {
+            left = mid + 1;
+        }
+    }
+    return -1;
+}
+```
+* 查找最后一个小于等于给定值的元素  
+``` c++
+/**
+ * 二分查找，查找最后一个小于等于给定值的元素
+ **/
+ int binary_search(const vector<int>& nums, int target) {
+     int left = 0;
+     int right = nums.size() - 1;
+
+     while (left <= right) {
+         int mid = left + ((right - left)>>1);
+         if (nums[mid] <= target) {
+             if (mid == (nums.size()-1) || nums[mid+1]>target) {
+                 // mid已经在最右边或者mid的下一个数字已经大于target的时候，
+                 // 说明mid已经是最后一个小于等于target的下标
+                 return mid;
+             } else {
+                 left = mid + 1;
+             }
+         } else {
+             right = mid - 1;
+         }
+     }
+     return -1;
+ }
+ ```
 
 ### 排序算法
 ------------------------------
