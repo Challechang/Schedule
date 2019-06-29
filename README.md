@@ -1,3 +1,7 @@
+  
+[TOC]  
+  
+
 
 # 计算机基础知识
 
@@ -34,7 +38,8 @@
 
 ### 二分查找
 
-* 查找第一个值等于给定值的元素  
+<details> <summary>查找第一个值等于给定值的元素</summary>
+
 ``` c++
 /**
  * 二分查找，查找第一个值等于给定值的元素
@@ -58,7 +63,10 @@
      return -1;
  }
 ```
-* 查找最后一个值等于给定值的元素   
+</details>
+
+<details> <summary>查找最后一个值等于给定值的元素 </summary>
+
 ``` c++
 /**
  * 二分查找，查找最后一个值等于给定值的元素
@@ -84,7 +92,10 @@ int binary_search_last(const vector<int>& nums, int target) {
 }
 
 ```
-* 查找第一个大于等于给定值的元素  
+</details>
+
+<details> <summary>查找第一个大于等于给定值的元素 </summary>
+  
 ``` c++
 int binary_search(const vector<int>& nums, int target) {
     int left = 0;
@@ -103,8 +114,11 @@ int binary_search(const vector<int>& nums, int target) {
     return -1;
 }
 ```
-* 查找最后一个小于等于给定值的元素  
-``` c++
+</details>
+
+ <details> <summary>查找最后一个小于等于给定值的元素</summary>
+
+``` cpp
 /**
  * 二分查找，查找最后一个小于等于给定值的元素
  **/
@@ -129,12 +143,13 @@ int binary_search(const vector<int>& nums, int target) {
      return -1;
  }
  ```
+ </details>
 
 ### 排序算法
 ------------------------------
 | 名字 | 时间复杂度| 稳定性 | 原地排序(空间复杂度为O(1))|
 |:-:   |:-:      |:-:    | :-: |
-|快速排序| O(n*log(n)) | 不稳定 | 是 |
+|快速排序| O(n*log(n)) | 不稳定 | 否 |
 |归并排序| O(n*log(n)) | 稳定   | 否 |
 |堆排序  | O(n*log(n)) | 不稳定 | 是 |
 |插入排序| O(n*n)     | 稳定   | 是 |
