@@ -19,6 +19,10 @@
 |[缺失数字](https://leetcode-cn.com/problems/missing-number/)| https://leetcode-cn.com/submissions/detail/20707918/|
 |[寻找重复数](https://leetcode-cn.com/problems/find-the-duplicate-number/)| https://leetcode-cn.com/submissions/detail/20772982/|
 |[错误的集合](https://leetcode-cn.com/problems/set-mismatch/)| https://leetcode-cn.com/submissions/detail/20774721/|
+|[螺旋矩阵](https://leetcode-cn.com/submissions/detail/21076746/)| https://leetcode-cn.com/submissions/detail/21016403/|
+|[螺旋矩阵 II](https://leetcode-cn.com/problems/spiral-matrix-ii/)| https://leetcode-cn.com/submissions/detail/20918082/|
+|[数组中的第k个最大元素](https://leetcode-cn.com/problems/kth-largest-element-in-an-array/)| https://leetcode-cn.com/submissions/detail/21011260/|
+
 
 
 ### 链表
@@ -37,6 +41,16 @@
 
 
 ### 二分查找
+|题目名称| 通过答案|
+|:-:|:-:|
+|[在排序数组中查找元素的第一个和最后一个位置](https://leetcode-cn.com/problems/find-first-and-last-position-of-element-in-sorted-array/)| https://leetcode-cn.com/submissions/detail/21272419/|
+|[x 的平方根](https://leetcode-cn.com/problems/sqrtx/)| https://leetcode-cn.com/submissions/detail/21317327/|
+|[两数之和 II - 输入有序数组](https://leetcode-cn.com/problems/two-sum-ii-input-array-is-sorted/)| https://leetcode-cn.com/submissions/detail/21646086/|
+|[寻找两个有序数组的中位数](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/)| https://leetcode-cn.com/submissions/detail/21670921/|
+|[搜索旋转排序数组](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/)| https://leetcode-cn.com/submissions/detail/21678251/|
+|[搜索旋转排序数组 II](https://leetcode-cn.com/problems/search-in-rotated-sorted-array-ii/)| https://leetcode-cn.com/submissions/detail/21681374/|
+|[寻找旋转排序数组中的最小值](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array/)|https://leetcode-cn.com/submissions/detail/21716749/|
+|[寻找旋转排序数组中的最小值 II](https://leetcode-cn.com/problems/find-minimum-in-rotated-sorted-array-ii/)|https://leetcode-cn.com/submissions/detail/21717685/|
 
 <details> <summary>查找第一个值等于给定值的元素</summary>
 
@@ -144,6 +158,52 @@ int binary_search(const vector<int>& nums, int target) {
  }
  ```
  </details>
+
+### 二叉树
+|题目名称| 通过答案|
+|:-:|:-:|
+|[二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)| https://leetcode-cn.com/submissions/detail/21302964/|
+|[二叉树的最近公共祖先](https://leetcode-cn.com/problems/lowest-common-ancestor-of-a-binary-search-tree/)| https://leetcode-cn.com/submissions/detail/21349067/|
+|[翻转二叉树](https://leetcode-cn.com/problems/invert-binary-tree/)| https://leetcode-cn.com/submissions/detail/21460764/|
+|[验证二叉搜索树](https://leetcode-cn.com/problems/validate-binary-search-tree/)| https://leetcode-cn.com/submissions/detail/21463591/|
+|[路径总和](https://leetcode-cn.com/problems/path-sum/)| https://leetcode-cn.com/submissions/detail/21464272/|
+|[路径总和II](https://leetcode-cn.com/problems/path-sum-ii/)| https://leetcode-cn.com/submissions/detail/21464937/|
+|[两数之和 IV - 输入 BST](https://leetcode-cn.com/problems/two-sum-iv-input-is-a-bst/)| https://leetcode-cn.com/submissions/detail/21647236/|
+### 栈
+|题目名称| 通过答案|
+|:-:|:-:|
+|[有效的括号](https://leetcode-cn.com/problems/valid-parentheses/)| https://leetcode-cn.com/submissions/detail/20865280/|
+|[最长有效括号](https://leetcode-cn.com/problems/longest-valid-parentheses/)| https://leetcode-cn.com/submissions/detail/21256393/ |
+|[最小栈](https://leetcode-cn.com/problems/min-stack/)| https://leetcode-cn.com/submissions/detail/21146151/|
+|[逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation/)| https://leetcode-cn.com/submissions/detail/20870427/|
+
+### 队列
+|题目名称| 通过答案|
+|:-:|:-:|
+|[设计循环双端队列](https://leetcode-cn.com/problems/design-circular-deque/)| https://leetcode-cn.com/submissions/detail/21008746/|
+
+### 堆
+|题目名称| 通过答案|
+|:-:|:-:|
+|[滑动窗口的最大值](https://leetcode-cn.com/problems/sliding-window-maximum/)| https://leetcode-cn.com/submissions/detail/21146151/|
+
+### 动态规划
+|题目名称| 通过答案|
+|:-:|:-:|
+|[爬楼梯](https://leetcode-cn.com/problems/climbing-stairs/)| https://leetcode-cn.com/submissions/detail/21076746/|
+
+### 回溯算法
+|题目名称| 通过答案|
+|:-:|:-:|
+|[全排列](https://leetcode-cn.com/problems/permutations/)| https://leetcode-cn.com/submissions/detail/20937974/|
+
+### 字符串
+|题目名称| 通过答案|
+|:-:|:-:|
+|[反转字符串 II](https://leetcode-cn.com/problems/reverse-string-ii/)| https://leetcode-cn.com/submissions/detail/21341242/|
+|[反转字符串中的单词 III](https://leetcode-cn.com/problems/reverse-words-in-a-string-iii/)| https://leetcode-cn.com/submissions/detail/21350937/|
+|[翻转字符串里的单词](https://leetcode-cn.com/problems/reverse-words-in-a-string/)| https://leetcode-cn.com/submissions/detail/21413670/|
+|[字符串转换整数 (atoi)](https://leetcode-cn.com/problems/string-to-integer-atoi/)| https://leetcode-cn.com/submissions/detail/21431133/|
 
 ### 排序算法
 ------------------------------
@@ -281,5 +341,7 @@ int binary_search(const vector<int>& nums, int target) {
 ```
 
 </details>
+
+
 
 # 语言相关的基础知识
